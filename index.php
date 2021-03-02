@@ -18,7 +18,7 @@
 			<div class="board">
 				<h1 id="diem">Điểm : 0</h1>
 					<audio controls autoplay>
-  						<source src="audio/bgm.mp3" type="audio/mpeg">
+  						<source src="bgm.mp3" type="audio/mpeg">
 					</audio>
 			</div>
 
