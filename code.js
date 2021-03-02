@@ -4,7 +4,7 @@ diem=0
 function themdiem() {
 	diem++
 		document.getElementById('diem').innerHTML='Điểm : '+diem;
-		localStorage.setItem('datadiem',diem)
+// 		localStorage.setItem('datadiem',diem)
 }
 function kill(x) {
 	themdiem()
