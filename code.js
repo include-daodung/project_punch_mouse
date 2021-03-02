@@ -10,9 +10,9 @@ function themdiem() {
 function kill(x) {
 	themdiem()
 	var chuotA=document.getElementById(x);
-	chuotA.innerHTML='<img width="170" src="image/die.png">'
+	chuotA.innerHTML='<img width="170" src="die.png">'
 	setTimeout(() => { 
-		chuotA.innerHTML='<img width="170" src="image/rip.png">';}, 300);
+		chuotA.innerHTML='<img width="170" src="rip.png">';}, 300);
 
 	chuotA.disabled=true
 	 	
@@ -23,5 +23,5 @@ function revival(x) {
 	var chuotB=document.getElementById(x);
 
 				chuotB.disabled=false
-					chuotB.innerHTML='<img width="170" src="image/mouse.png">'
+					chuotB.innerHTML='<img width="170" src="mouse.png">'
 }
