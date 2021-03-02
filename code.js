@@ -1,8 +1,6 @@
-var diem=parseInt(localStorage.getItem('datadiem'))
-if (diem=='NaN') {diem = 0} else {document.getElementById('diem').innerHTML='Điểm : '+diem}
+if (!(parseInt(localStorage.getItem('datadiem'))>=0)) {localStorage.setItem('datadiem',0)}
 function themdiem() {
 	diem++
-	   if (diem=='NaN') {diem = 0}
 		document.getElementById('diem').innerHTML='Điểm : '+diem;
 		localStorage.setItem('datadiem',diem)
 }
