@@ -1,5 +1,6 @@
-if (!(parseInt(localStorage.getItem('datadiem'))>=0)) {localStorage.setItem('datadiem','0')}
-var diem=parseInt(localStorage.getItem('datadiem');
+// if (!(parseInt(localStorage.getItem('datadiem'))>=0)) {localStorage.setItem('datadiem','0')}
+// var diem=parseInt(localStorage.getItem('datadiem');
+diem=0
 function themdiem() {
 	diem++
 		document.getElementById('diem').innerHTML='Điểm : '+diem;
