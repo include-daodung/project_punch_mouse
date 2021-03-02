@@ -1,0 +1,28 @@
+body {
+	background-image: url(image/bg.png);
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	color: white;
+	cursor: url('bua.png'), auto;
+}
+.block{
+	margin-left: 50px;
+	margin-top: 50px;
+	cursor: url('bua.png'), auto;
+}
+.button{
+	 
+	 	border: none;
+	 	background-color: unset; 
+	 	padding: 30px;
+	 	margin-right: 70px;
+	 	cursor: url('image/bua.png'), auto;
+	 	
+}
+.board {
+	margin-right: 60px;
+	float: right;
+	float: top;
+	display: block;
+
+}
